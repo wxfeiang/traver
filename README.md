@@ -31,6 +31,11 @@ npm run build --report
   @import '~styles/varibles.styl'
 
 ```
+```
+.wrapper /deep/ .swiper-pagination-bullet-active  
+/deep/   代替 >>> 
+```
+
 
 ##swiper
 
