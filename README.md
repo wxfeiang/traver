@@ -35,6 +35,23 @@ npm run build --report
 .wrapper /deep/ .swiper-pagination-bullet-active  
 /deep/   代替 >>> 
 ```
+##  npm install axios --save  
+* 全局配置
+##  转发机制
+* config index.js proxyTable更改   // 设置跨域请求
+`
+ proxyTable: {
+      // 设置跨域请求
+      "/api": {
+        target: "http://localhost:5000/api/",
+        changeOrigin: true,
+        pathRewrite: {
+          "^/api": ""
+        }
+      }
+    },
+`
+
 
 
 ##swiper

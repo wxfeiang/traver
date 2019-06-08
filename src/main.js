@@ -5,6 +5,9 @@ import App from './App'
 import router from './router'
 // import fastClick from 'fastclick'
 import VueAwesomeSwiper from 'vue-awesome-swiper'
+import axios from "axios"; // 模块化请求头
+// import store from "./store"; // 状态你管理组件
+Vue.prototype.$axios = axios; // 全局实例配置
 
 // 也可以引入样式
 import './assets/styles/reset.css'
